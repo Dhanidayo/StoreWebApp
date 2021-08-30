@@ -1,0 +1,12 @@
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.Models\bin\Debug\net5.0\StoreManagement.Models.deps.json
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.Models\bin\Debug\net5.0\StoreManagement.Models.dll
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.Models\bin\Debug\net5.0\ref\StoreManagement.Models.dll
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.Models\bin\Debug\net5.0\StoreManagement.Models.pdb
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.Models\obj\Debug\net5.0\StoreManagement.Models.csproj.AssemblyReference.cache
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.Models\obj\Debug\net5.0\StoreManagement.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.Models\obj\Debug\net5.0\StoreManagement.Models.AssemblyInfoInputs.cache
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.Models\obj\Debug\net5.0\StoreManagement.Models.AssemblyInfo.cs
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.Models\obj\Debug\net5.0\StoreManagement.Models.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.Models\obj\Debug\net5.0\StoreManagement.Models.dll
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.Models\obj\Debug\net5.0\ref\StoreManagement.Models.dll
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.Models\obj\Debug\net5.0\StoreManagement.Models.pdb

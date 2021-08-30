@@ -1,0 +1,17 @@
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.BL\obj\Debug\net5.0\StoreManagement.BL.csproj.AssemblyReference.cache
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.BL\obj\Debug\net5.0\StoreManagement.BL.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.BL\obj\Debug\net5.0\StoreManagement.BL.AssemblyInfoInputs.cache
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.BL\obj\Debug\net5.0\StoreManagement.BL.AssemblyInfo.cs
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.BL\obj\Debug\net5.0\StoreManagement.BL.csproj.CoreCompileInputs.cache
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.BL\bin\Debug\net5.0\StoreManagement.BL.deps.json
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.BL\bin\Debug\net5.0\StoreManagement.BL.dll
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.BL\bin\Debug\net5.0\ref\StoreManagement.BL.dll
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.BL\bin\Debug\net5.0\StoreManagement.BL.pdb
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.BL\bin\Debug\net5.0\StoreManagement.DB.dll
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.BL\bin\Debug\net5.0\StoreManagement.Models.dll
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.BL\bin\Debug\net5.0\StoreManagement.DB.pdb
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.BL\bin\Debug\net5.0\StoreManagement.Models.pdb
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.BL\obj\Debug\net5.0\StoreManagement.BL.csproj.CopyComplete
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.BL\obj\Debug\net5.0\StoreManagement.BL.dll
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.BL\obj\Debug\net5.0\ref\StoreManagement.BL.dll
+C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.BL\obj\Debug\net5.0\StoreManagement.BL.pdb
