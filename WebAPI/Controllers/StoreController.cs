@@ -45,7 +45,7 @@ namespace WebAPI.Controllers
         {
             try
             {
-                var result = await _storeService.AddStore(addStoreRequest.StoreName, addStoreRequest.Products, addStoreRequest.UserId, addStoreRequest.Location, addStoreRequest.Branches);
+                var result = await _storeService.AddStore(addStoreRequest.StoreName, addStoreRequest.StoreType, addStoreRequest.Products, addStoreRequest.UserId, addStoreRequest.Location, addStoreRequest.Branches);
 
                 return CreatedAtAction(nameof(GetStore), new {UserId = addStoreRequest.UserId}, result);
             }
