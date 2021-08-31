@@ -51,6 +51,17 @@ namespace StoreManagement.DB
 
                 await context.SaveChangesAsync();
             }
+
+            if (!context.Products.Any())
+            {
+                string data = await File.ReadAllTextAsync(@"C:\Users\lenovo\Dropbox\My PC (DESKTOP-0CQ3F2P)\Documents\StoreWebApp\StoreManagement.DB\Seeder\Products.json");
+                
+                List<Product> products = JsonConvert.DeserializeObject<List<Product>>(data);
+
+                await context.Products.AddRangeAsync(products);
+
+                await context.SaveChangesAsync();
+            }
         }
     }
 }

@@ -17,32 +17,79 @@ namespace StoreManagement.BL
             _productRepository = productRepository ?? throw new ArgumentNullException(nameof(productRepository));
         }
 
-        public async Task<Product> AddProduct(string productName, string storeId)
+        public async Task<Product> AddProduct(string productName, double price, string storeId)
         {
-            return await _productRepository.AddProduct(new Product { ProductName = productName, StoreId = storeId });
-        }
-
-        public async Task<bool> UpdateProduct(string productId, string productName)
-        {
-            var product = await _productRepository.GetProduct(productId);
-            if (product is null)
-            {
-                throw new ArgumentNullException("Resource does not exist");
-            }
-
-            product.ProductName = productName;
-
-            return await _productRepository.UpdateProduct(product);
-        }
-
-        public Task<bool> DeleteProduct(string productId)
-        {
-            return _productRepository.DeleteProduct(productId);
+            return await _productRepository.AddProduct(new Product { ProductName = productName, Price = price, StoreId = storeId });
         }
 
         public Task<Product> GetProduct(string productId)
         {
             return _productRepository.GetProduct(productId);
+        }
+
+        public async Task<bool> UpdateProduct_patch(string productId, string storeId, UpdateProductRequest productDTO)
+        {
+            try
+            {
+                var product = await GetProduct(productId);
+                if (product is null)
+                {
+                    throw new ArgumentNullException("Resource does not exist");
+                }
+
+                if (product.StoreId != storeId)
+                {
+                    throw new UnauthorizedAccessException("Forbidden");
+                }
+
+                product.ProductName = productDTO.ProductName;
+                product.Price = productDTO.Price;
+
+                return await _productRepository.UpdateProduct(product);
+            }
+            catch (Exception)
+            {
+                
+                throw new Exception();
+            }
+        }
+
+        public async Task<bool> UpdateProduct_put(string productId, string storeId, UpdateProductRequest productDTO)
+        {
+            try
+            {
+                var product = await GetProduct(productId);
+                if (product is null)
+                {
+                    throw new ArgumentNullException("Resource does not exist");
+                }
+
+                if (product.StoreId != storeId)
+                {
+                    throw new UnauthorizedAccessException("Forbidden");
+                }
+
+                product.ProductName = productDTO.ProductName;
+                product.Price = productDTO.Price;
+
+                return await _productRepository.UpdateProduct(product);
+            }
+            catch (Exception)
+            {
+                
+                throw new Exception();
+            }
+        }
+
+        public Task<bool> DeleteProduct(string productId)
+        {
+            //var product = await GetProduct(productId);
+            //if (product.StoreId == storeId)
+            //{
+                return _productRepository.DeleteProduct(productId);
+            //}
+
+            //throw new UnauthorizedAccessException("Forbidden");
         }
 
         public Task<ICollection<Product>> GetAllProducts(string storeId)

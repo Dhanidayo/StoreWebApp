@@ -17,7 +17,6 @@ namespace StoreManagement.DB
         //Creating tables for the following classes using EFCore
         public DbSet<Store> Stores { get; set; }
         public DbSet<Product> Products { get; set; }
-
     }
 }
 
@@ -25,7 +24,7 @@ namespace StoreManagement.DB
 
 
 ///<summary>
-    //the dbcontext class inheriting from identitydbcontext with a generic parameter of our user class in the models class.
+    //the dbcontext class inheriting from identitydbcontext with a generic parameter of user class model.
     
     //creating a constructor and passing in the dbcontext options inorder to inject the dbcontext during Dependency injection
     //chaining the constructor with the base IentityDBContext base class

@@ -12,6 +12,7 @@ namespace StoreManagement.DB
             return new AddStoreResponse
             {
                 StoreName = store.StoreName,
+                StoreType = store.StoreType,
                 Branches = store.Branches,
                 StoreId = store.StoreId,
                 Products = store.Products,
@@ -26,6 +27,7 @@ namespace StoreManagement.DB
             {
                 StoreId = store.StoreId,
                 StoreName = store.StoreName,
+                StoreType = store.StoreType,
                 Branches = store.Branches,
                 Products = store.Products,
                 Location = store.Location,

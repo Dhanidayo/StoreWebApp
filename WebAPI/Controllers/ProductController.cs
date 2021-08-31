@@ -76,11 +76,30 @@ namespace WebAPI.Controllers
         }
 
         [HttpPatch]
-        public async Task<IActionResult> UpdateProduct([FromQuery] string productId, string storeId, UpdateProductRequest updateProductRequest)
+        public async Task<IActionResult> UpdateProduct_patch([FromQuery] string productId, string storeId, UpdateProductRequest updateProductRequest)
         {
             try
             {
-                var result = await _productService.UpdateProduct(productId, storeId, updateProductRequest);
+                var result = await _productService.UpdateProduct_patch(productId, storeId, updateProductRequest);
+                if (result)
+                {
+                    return NoContent();
+                }
+
+                return NotFound("Resource not found");
+            }
+            catch (Exception)
+            {
+                return StatusCode(StatusCodes.Status500InternalServerError);
+            }
+        }
+
+        [HttpPut]
+        public async Task<IActionResult> UpdateProduct_put([FromQuery] string productId, string storeId, UpdateProductRequest updateProductRequest)
+        {
+            try
+            {
+                var result = await _productService.UpdateProduct_put(productId, storeId, updateProductRequest);
                 if (result)
                 {
                     return NoContent();

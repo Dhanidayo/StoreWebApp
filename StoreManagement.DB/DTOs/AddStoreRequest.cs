@@ -11,6 +11,8 @@ namespace StoreManagement.DB
         [Required]
         public string UserId { get; set; }
         [Required]
+        public string StoreType { get; set; }
+        [Required]
         public string StoreName { get; set; }
         public int Products { get; set; }
         [Required]

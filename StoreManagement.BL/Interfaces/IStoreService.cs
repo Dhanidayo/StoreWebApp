@@ -8,7 +8,7 @@ namespace StoreManagement.BL
 {
     public interface IStoreService
     {
-        Task<Store> AddStore(string storeName, int products, string userId, string location, int branches);
+        Task<Store> AddStore(string storeName, string storeType, int products, string userId, string location, int branches);
         Task<Store> GetStore(string storeId);
         Task<bool> UpdateStore_Put(StorePutRequest storeDTO, string storeId,string userId);
         Task<bool> UpdateStore_Patch(StorePatchRequest storeDTO, string storeId, string userId);

@@ -17,11 +17,12 @@ namespace StoreManagement.BL
             _storeRepository = storeRepository ?? throw new ArgumentNullException(nameof(storeRepository));
         }
 
-        public async Task<Store> AddStore(string storeName, int products, string userId, string location, int branches)
+        public async Task<Store> AddStore(string storeName, string storeType, int products, string userId, string location, int branches)
         {
             Store store = new Store
             {
                 StoreName = storeName,
+                StoreType = storeType,
                 UserId = userId,
                 Location = location,
                 Branches = branches,
